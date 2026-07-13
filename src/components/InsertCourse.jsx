@@ -14,16 +14,16 @@ const InsertCourse = () => {
                             <input type="text" className="form-control" />
                         </div>
                         <div className="col-col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
-                            <label htmlFor="" className="form-label">Duration</label>
+                            <label htmlFor="" className="form-label">Course Duration</label>
                             <input type="text" className="form-control" />
                         </div>
                         
                         <div className="col-col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
-                            <label htmlFor="" className="form-label">Fee</label>
+                            <label htmlFor="" className="form-label">Course Fee</label>
                             <input type="text" className="form-control" />
                         </div>
                         <div className="col-col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
-                            <label htmlFor="" className="form-label">Mode</label>
+                            <label htmlFor="" className="form-label">Mode of Study</label>
                             <select name="feemodel" id="" className="form-select">
                                 <option value="">Select</option>
                                 <option value="">Online</option>
@@ -32,7 +32,7 @@ const InsertCourse = () => {
                             </select>
                         </div>
                         <div className="col-col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
-                            <label htmlFor="" className="form-label">Trainer</label>
+                            <label htmlFor="" className="form-label">Trainer Name</label>
                             <input type="text" className="form-control" />
                         </div>
                         <div className="col-col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
