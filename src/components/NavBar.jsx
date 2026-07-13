@@ -6,7 +6,7 @@ const NavBar = () => {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            Course App
+            Course Management System
           </Link>
 
           <button
@@ -24,7 +24,7 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
               <Link className="nav-link" to="/">
-                Enter Course
+                Enter Courses
               </Link>
 
               <Link className="nav-link" to="/view">
