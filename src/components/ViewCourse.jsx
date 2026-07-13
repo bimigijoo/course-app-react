@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import axios from 'axios'
 import NavBar from './NavBar'
 
@@ -35,7 +35,7 @@ const ViewCourse = () => {
                         <div className="row">
 
                             {
-                                data.map((value, index) => {
+                                data.map((value) => {
                                     return (
 
                                         <div
@@ -52,19 +52,19 @@ const ViewCourse = () => {
                                                     </h5>
 
                                                     <p className="card-text">
-                                                        <strong>Duration :</strong> {value.duration}
+                                                        <strong>Course Duration :</strong> {value.duration}
                                                     </p>
 
                                                     <p className="card-text">
-                                                        <strong>Fee :</strong> ₹{value.fee}
+                                                        <strong>Course Fee :</strong> ₹{value.fee}
                                                     </p>
 
                                                     <p className="card-text">
-                                                        <strong>Mode :</strong> {value.mode}
+                                                        <strong>Mode of Study :</strong> {value.mode}
                                                     </p>
 
                                                     <p className="card-text">
-                                                        <strong>Trainer :</strong> {value.trainer}
+                                                        <strong>Trainer Name :</strong> {value.trainer}
                                                     </p>
 
                                                     <p className="card-text">
